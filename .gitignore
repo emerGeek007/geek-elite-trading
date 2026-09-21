@@ -1,0 +1,4 @@
+config.local.php
+data/inscriptions.json
+.DS_Store
+Thumbs.db
