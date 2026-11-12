@@ -154,6 +154,10 @@
       paused = false;
       lastTime = 0;
     });
+    window.addEventListener("resize", function () {
+      wrapOffset();
+      applyOffset();
+    });
     requestAnimationFrame(tick);
   }
 
