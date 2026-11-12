@@ -438,10 +438,12 @@ input:focus {
 }
 
 .cert-card small {
+  display: block;
   color: var(--gold);
   font-weight: 700;
   letter-spacing: 0.04em;
   font-size: 0.68rem;
+  line-height: 1.35;
 }
 
 .cert-card h3 {
