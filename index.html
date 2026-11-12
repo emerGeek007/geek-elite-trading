@@ -24,6 +24,8 @@
     </a>
     <nav class="nav">
       <a href="#programme">Programme</a>
+      <a href="#certificats">Certificats</a>
+      <a href="#videos">Vidéos</a>
       <a href="#avantages">Avantages</a>
       <a href="#inscription" class="nav-cta">S'inscrire</a>
     </nav>
@@ -31,21 +33,96 @@
 
   <main>
     <section id="accueil" class="hero">
-      <p class="eyebrow">Formation professionnelle · Places limitées</p>
-      <h1>Maîtrisez les marchés.<br><em>Tradez avec méthode.</em></h1>
-      <p class="hero-lead">
-        Geek Elite Trading forme les traders ambitieux à une approche structurée,
-        disciplinée et applicable dès la première séance.
-      </p>
-      <div class="hero-actions">
-        <a href="#inscription" class="btn btn-gold">Réserver ma place</a>
-        <a href="#programme" class="btn btn-ghost">Voir le programme</a>
+      <div class="hero-copy">
+        <p class="eyebrow">Formation professionnelle · Places limitées</p>
+        <h1>Maîtrisez les marchés.<br><em>Tradez avec méthode.</em></h1>
+        <p class="hero-lead">
+          Geek Elite Trading forme les traders ambitieux à une approche structurée,
+          disciplinée et applicable dès la première séance.
+        </p>
+        <div class="hero-actions">
+          <a href="#inscription" class="btn btn-gold">Réserver ma place</a>
+          <a href="#programme" class="btn btn-ghost">Voir le programme</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>1:1</strong><span>Accompagnement personnalisé</span></li>
+          <li><strong>100%</strong><span>Méthode actionnable</span></li>
+          <li><strong>Live</strong><span>Séances en temps réel</span></li>
+        </ul>
       </div>
-      <ul class="hero-stats">
-        <li><strong>1:1</strong><span>Accompagnement personnalisé</span></li>
-        <li><strong>100%</strong><span>Méthode actionnable</span></li>
-        <li><strong>Live</strong><span>Séances en temps réel</span></li>
-      </ul>
+
+      <div class="slideshow" id="certificats" aria-roledescription="diaporama">
+        <button type="button" class="slide-btn slide-btn-prev" id="cert-prev" aria-label="Certificat précédent">‹</button>
+        <div class="slideshow-viewport">
+          <div class="slideshow-track" id="cert-track">
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate1.png" data-title="Miraculous Recovery — The5ers">
+                <img src="assets/certificates/certificate1.png" alt="Certificat The5ers Miraculous Recovery — Emerson Francois">
+              </button>
+              <figcaption>
+                <small>The5ers · 10 juillet 2026</small>
+                <h3>Miraculous Recovery</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate2.png" data-title="Quality Trade Score 90+ — XAUUSD">
+                <img src="assets/certificates/certificate2.png" alt="Certificat The5ers Quality Trade Score 90+ XAUUSD — Emerson Francois">
+              </button>
+              <figcaption>
+                <small>The5ers · XAUUSD · 10 juillet 2026</small>
+                <h3>Quality Trade Score 90+</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate3.png" data-title="Fantastic RRR — XAUUSD">
+                <img src="assets/certificates/certificate3.png" alt="Certificat The5ers Fantastic RRR XAUUSD — Emerson Francois">
+              </button>
+              <figcaption>
+                <small>The5ers · XAUUSD · 10 juillet 2026</small>
+                <h3>Fantastic RRR</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate4.jpg" data-title="E8 SimFi Challenge — Certificate of Performance">
+                <img src="assets/certificates/certificate4.jpg" alt="Certificat E8 Markets of Performance — Emerson F.">
+              </button>
+              <figcaption>
+                <small>E8 Markets · 12 janvier 2026</small>
+                <h3>Certificate of Performance</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate5.png" data-title="Officially Funded Trader — The5ers">
+                <img src="assets/certificates/certificate5.png" alt="Certificat The5ers Officially Funded Trader — Emerson Francois">
+              </button>
+              <figcaption>
+                <small>The5ers · Bootcamp · 13 février 2026</small>
+                <h3>Officially Funded Trader</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate6.png" data-title="Elite Trader — FundedNext">
+                <img src="assets/certificates/certificate6.png" alt="Certificat FundedNext Elite Trader — Francois Emerson">
+              </button>
+              <figcaption>
+                <small>FundedNext · 22 décembre 2025</small>
+                <h3>Elite Trader</h3>
+              </figcaption>
+            </figure>
+            <figure class="cert-card">
+              <button type="button" class="cert-open" data-src="assets/certificates/certificate7.png" data-title="Officially Funded Trader — The5ers · 17 septembre 2026">
+                <img src="assets/certificates/certificate7.png" alt="Certificat The5ers Officially Funded Trader — Emerson Francois, 17 septembre 2026">
+              </button>
+              <figcaption>
+                <small>The5ers · Bootcamp · 17 septembre 2026</small>
+                <h3>Officially Funded Trader</h3>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <button type="button" class="slide-btn slide-btn-next" id="cert-next" aria-label="Certificat suivant">›</button>
+        <div class="slide-dots" id="cert-dots"></div>
+      </div>
     </section>
 
     <section id="programme" class="section">
@@ -71,6 +148,22 @@
           <p>Contrôle émotionnel, journal de trading et habitudes des traders consistants.</p>
         </article>
       </div>
+    </section>
+
+    <section id="videos" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Académie vidéo</p>
+        <h2>Toutes les leçons de formation</h2>
+        <p>Regardez les modules en ligne, même si l'ordinateur du formateur est éteint.</p>
+      </div>
+      <div class="player-card" id="video-player" hidden>
+        <video id="lesson-video" controls playsinline preload="metadata"></video>
+        <div class="player-meta">
+          <h3 id="lesson-title">Leçon</h3>
+          <p id="lesson-file" class="hero-lead"></p>
+        </div>
+      </div>
+      <div class="video-grid" id="video-grid"></div>
     </section>
 
     <section id="avantages" class="section section-split">
@@ -140,6 +233,13 @@
     <p>Contact: <a href="mailto:emersonfrancois77@gmail.com">emersonfrancois77@gmail.com</a></p>
   </footer>
 
+  <div class="lightbox" id="cert-lightbox" hidden>
+    <button type="button" class="lightbox-close" id="cert-close" aria-label="Fermer">×</button>
+    <img id="cert-lightbox-img" alt="">
+    <p id="cert-lightbox-title"></p>
+  </div>
+
+  <script src="assets/js/videos.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>

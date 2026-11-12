@@ -2,3 +2,10 @@ config.local.php
 data/inscriptions.json
 .DS_Store
 Thumbs.db
+assets/videos/
+prepare-videos.ps1
+/certificate*.png
+/certificate*.jpg
+Trading/
+Market/
+Renew/

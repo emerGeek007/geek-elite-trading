@@ -1,0 +1,1 @@
+window.FORMATION_VIDEOS = [];
